@@ -16,14 +16,44 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+.secondary {
+  color: white;
+  background-color: #272044;
+  background-image: linear-gradient(
+      360deg,
+      rgba(3, 5, 4, 0.9) 0%,
+      rgba(2, 4, 3, 0.7) 51.55%,
+      rgba(11, 6, 32, 0.6) 100%
+    ),
+    url("../images/sc-main-secondary.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondary span {
+  background: #ffffff1a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
 }
 
 header {
@@ -42,6 +72,7 @@ header h1 {
   font-size: 96px;
   line-height: 100%;
   letter-spacing: 0%;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -58,10 +89,53 @@ header h3 {
   font-weight: 900;
   line-height: 100%;
   letter-spacing: 5px;
+  text-transform: uppercase;
   margin: 0;
 }
 
-header a {
+.card {
+  background-color: white;
+  color: #272044;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.card h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.card hr {
+  color: #272044;
+  weight: 1px;
+  opacity: 0.8;
+}
+
+.button {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
@@ -77,11 +151,6 @@ header a {
 
 main {
   background-color: white;
-}
-
-main img {
-  width: 100%;
-  height: auto;
 }
 
 main h2 {
@@ -192,7 +261,7 @@ footer a {
     font-size: 12px;
   }
 
-  header a {
+  .button {
     font-size: 12px;
   }
 
