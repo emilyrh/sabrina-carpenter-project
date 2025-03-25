@@ -24,6 +24,10 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-2-rows {
+  grid-template-rows: 1fr 1fr;
+}
+
 section {
   margin: 0 auto;
   padding: 100px;
@@ -105,6 +109,10 @@ header h3 {
   border-top-right-radius: 15px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -129,10 +137,9 @@ header h3 {
   margin: 0;
 }
 
-.card hr {
-  color: #272044;
-  weight: 1px;
-  opacity: 0.8;
+.lyrics {
+  font-style: italic;
+  font-size: 16px;
 }
 
 .button {
