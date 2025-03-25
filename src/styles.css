@@ -92,8 +92,11 @@ main h2 {
   letter-spacing: 5px;
   text-transform: uppercase;
   padding: 6px 2px;
-  background: #885df11a;
   margin: 0;
+}
+
+main span {
+  background: #885df11a;
 }
 
 main h3 {
