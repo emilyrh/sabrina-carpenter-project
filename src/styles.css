@@ -43,12 +43,17 @@ section {
       rgba(11, 6, 32, 0.6) 100%
     ),
     url("../images/sc-main-secondary.webp");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
 }
 
 .secondary span {
   background: #ffffff1a;
+}
+
+.tertiary {
 }
 
 .text-center {
@@ -209,10 +214,18 @@ main a {
   text-align: center;
 }
 
+.tertiary .grid {
+  grid-gap: 10px;
+  padding: 30px;
+}
+
+.setlist img {
+  border-radius: 15px;
+}
 footer {
   color: white;
   background-image: linear-gradient(rgba(2, 4, 3, 0.8), rgba(2, 4, 3, 0.8)),
-    url(../images/sc-footer.jpg);
+    url("../images/sc-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
