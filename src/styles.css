@@ -42,11 +42,9 @@ section {
       rgba(2, 4, 3, 0.7) 51.55%,
       rgba(11, 6, 32, 0.6) 100%
     ),
-    url("../images/sc-main-secondary.webp");
+    url("../images/sc-main-secondary.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-  height: auto;
 }
 
 .secondary span {
